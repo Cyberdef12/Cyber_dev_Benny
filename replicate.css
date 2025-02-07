@@ -1,0 +1,203 @@
+body{
+    background: url(replicate.jpg);
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    margin-left: 20px;
+}
+
+#logo{
+    color: darkorange;
+}
+
+#title{
+    color: white;
+    width: 400px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 120px;
+}
+.p1{
+    color: white;
+    width:550px;
+    letter-spacing: 0.8px;
+    word-spacing: 2px;
+    line-height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+}
+.JU{
+    background: darkorange;
+    color: blue;
+    border: none;
+    border-radius: 4px;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.JU:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+#menu{
+    color: white;
+    margin-top: -570px;
+    margin-left: 250px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul li h3 a{
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    transition-duration: 0.3s;
+    color: white;
+    text-decoration: none;
+}
+ul li h3 a:hover{
+    color: darkorange;
+    cursor: pointer;
+}
+.btn{
+    background: darkorange;
+    border: solid;
+    border-color: darkorange;
+    border-width: 1.5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    width: 90px;
+    margin-left: -5px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.src{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    width: 190px;
+    height: 40px;
+    background: transparent; 
+    border: 1.5px solid darkorange;
+    border-width: 1.5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#search{
+    margin-top: -60px;
+    margin-left: 1030px;
+    display: flex;
+}
+input:focus{
+    outline: none;
+}
+#search input{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+.src::placeholder {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+#login{
+    margin-left: 1030px;
+    margin-top: 100px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    width: 280px;
+    border-radius: 8px;
+    height: 430px;
+}
+
+#login h2 {
+    color: darkorange;
+    background: white;
+    width: 180px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px fff;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+}
+#login input{
+    background-color: transparent;
+    border: solid 1px darkorange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 45px;
+    width: 230px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+#login input::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+#login input::target-text{
+    color: white;
+}
+#login button{
+    color: blue;
+    background-color: darkorange;
+    width: 230px;
+    border: solid 1px darkorange;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    height: 40px;
+    margin-top: 25px;
+}
+#login button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#login p{
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    padding-left: 14px;
+}
+#login e{
+    color: white;
+    margin-left: 75px;
+}
+#inlogin{
+    padding: 25px;
+}
+#login span:hover{
+    cursor: pointer;
+}
+#login img{
+    padding-left: px;
+    margin-left: 18px;
+    margin-bottom: -8px;
+    border: solid px white;
+    border-radius: 15.5px;
+}
+#login img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
